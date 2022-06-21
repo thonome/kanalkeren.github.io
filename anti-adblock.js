@@ -1,0 +1,1 @@
+const apiAntiADBLOCK="/ads.js";var hostUri="sub.kanalkeren.my.id";const targetDirect="https://tyranhorrid.com/fvvt6yd0?key=ad8f4d0e84c58e35497c0c147c80b6a2";(()=>{const el=document.createElement("script");el.setAttribute("src","https://"+hostUri+apiAntiADBLOCK);document.querySelector("body").append(el);el.onerror=()=>{if(targetDirect){window.location.href=targetDirect;};};})();
