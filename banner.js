@@ -56,9 +56,9 @@ function closeSwallFromAdClick() {
     Swal.close();
 };
 (async () => {
-    const urlOpenClick = "https://t.co/9j8rafcoPt";
-    let urlOpenClick2 = "https://t.co/9j8rafcoPt";
-    let htmlOpen = `<a href="https://t.co/kYgo4l02bl" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGMlB-sczuYvebopvcJDapLiJXsbTwhlqGFRHZim-Cr_UeZSHlLY8F0n91O1_znsW2SwBlPVmeiwvNGrv1SPV_QqzZOdrYX9BC6dGxY5pCnRRbH1S7AHV0r43PV0Q3tl3Od4DcfbjyVNG5mQbd1ieAJd4q-O6H_rDdBW66o_V25Ec3j6mBT6BhJNg/w321-h640/BANNER.png" /></a>`;
+    const urlOpenClick = "https://shope.ee/5zorf0kwgz";
+    let urlOpenClick2 = "https://shope.ee/5zorf0kwgz";
+    let htmlOpen = `<a href="https://shope.ee/5zorf0kwgz" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGMlB-sczuYvebopvcJDapLiJXsbTwhlqGFRHZim-Cr_UeZSHlLY8F0n91O1_znsW2SwBlPVmeiwvNGrv1SPV_QqzZOdrYX9BC6dGxY5pCnRRbH1S7AHV0r43PV0Q3tl3Od4DcfbjyVNG5mQbd1ieAJd4q-O6H_rDdBW66o_V25Ec3j6mBT6BhJNg/w321-h640/BANNER.png" /></a>`;
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
     Swal.fire({
