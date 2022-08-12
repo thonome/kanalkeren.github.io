@@ -58,7 +58,7 @@ function closeSwallFromAdClick() {
 (async () => {
     const urlOpenClick = "https://t.co/pH5kDAc2kj";
     let urlOpenClick2 = "https://t.co/pH5kDAc2kj";
-    let htmlOpen = `<a href="https://t.co/pH5kDAc2kj" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTs-bq5TS0miT9g6PyMhbBxZgcLbmQLGlw4EpXJelYl72lwgJ5AYBq1O3l4ddyVy91B0pfFObDDbPzqnrngnJp8LMnErj7dntJ560imGn0cl51IoZfOBiGKaPpSevql2RTk6AAJS6odr35fa8vlC0153KTDFlflHhsAYeLuDuNW3eHX5eY8HOvsYtR/s16000/Festival%20Pilih%20Lokal%2017.8%20-%20IG%20Story_TikTok.jpg" /></a>`;
+    let htmlOpen = `<a href="https://t.co/pH5kDAc2kj" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCGMlB-sczuYvebopvcJDapLiJXsbTwhlqGFRHZim-Cr_UeZSHlLY8F0n91O1_znsW2SwBlPVmeiwvNGrv1SPV_QqzZOdrYX9BC6dGxY5pCnRRbH1S7AHV0r43PV0Q3tl3Od4DcfbjyVNG5mQbd1ieAJd4q-O6H_rDdBW66o_V25Ec3j6mBT6BhJNg/w321-h640/BANNER.png" /></a>`;
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
     Swal.fire({
