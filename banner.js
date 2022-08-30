@@ -57,7 +57,7 @@ function closeSwallFromAdClick() {
 };
 (async () => {
     const urlOpenClick = "https://shope.ee/10QnyATHHe";
-    let urlOpenClick2 = "https://tyranhorrid.com/bpfc83jeeu?key=bbb733b9f5c0de4dd6fc082ee3fc52c0";
+    let urlOpenClick2 = "https://shope.ee/404PYNMLez";
     let htmlOpen = `<a href="https://shope.ee/9K5vtNmdlq" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.eduzone.my.id/Super_Shopping9.9.jpg" /></a>`;
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
