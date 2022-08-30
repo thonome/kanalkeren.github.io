@@ -1,4 +1,4 @@
-const mapNextAds = ["new.kanalkeren.my.id/costom-botton-shoope.js", "https://new.kanalkeren.my.id/main.js", "https://new.kanalkeren.my.id/detect-click.js"];
+const mapNextAds = ["new.kanalkeren.my.id/costom-botton-shoope.js","https://new.kanalkeren.my.id/main.js","https://new.kanalkeren.my.id/detect-click.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
