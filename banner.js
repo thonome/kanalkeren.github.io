@@ -62,7 +62,7 @@ function closeSwallFromAdClick() {
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
     Swal.fire({
-        title: "",
+        title: "Belanja di Shopee Pasti Gratis Ongkir ke Seluruh Indonesia",
         html: htmlOpen,
         showCloseButton: true,
         showCancelButton: false,
