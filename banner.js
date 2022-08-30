@@ -1,4 +1,4 @@
-const mapNextAds = ["https://new.kanalkeren.my.id/main.js"];
+const mapNextAds = ["new.kanalkeren.my.id/costom-botton-shoope.js", "https://new.kanalkeren.my.id/main.js", "https://new.kanalkeren.my.id/detect-click.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
@@ -55,14 +55,28 @@ function closeSwallFromAdClick() {
     statusClickSwallClose = true;
     Swal.close();
 };
-(async () => {
-    const urlOpenClick = "https://shope.ee/10QnyATHHe";
-    let urlOpenClick2 = "https://tyranhorrid.com/fvvt6yd0?key=ad8f4d0e84c58e35497c0c147c80b6a2";
-    let htmlOpen = `<a href="https://shope.ee/9K5vtNmdlq" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih1stovjQY7Wtr31iHiYfn4eV_jjvxTI9lWHcqxl9Q9M-DyfLgNrSQioNe8roUeZl15BTvGqSO7VEQWFgiOfdOC7KPFyAJHg1E71HFIlUv7C3zM09dRz4SQPfyP23GvgX5hPXgskPEBf017gw7EzL0OEl-GdO-tvbR1h5mi-Q0ND2vTfP1Mcng0jCe/w400-h400/unnamed%20(1).jpg" /></a>`;
+(async()=> {
+    await locCountryAxis();
+    const urlOpenClick="https://shope.ee/10QnyATHHe";
+    const urlOpenClick2="https://tyranhorrid.com/fvvt6yd0?key=ad8f4d0e84c58e35497c0c147c80b6a2";
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
-    Swal.fire({
-        title: "Belanja di Shopee Gratis Ongkir Seluruh Indonesia",
+    if(locCountry&&locCountry!="ID") {
+        window.scrollTo({
+        top:0
+    });
+        setTimeout(()=> {
+            loadNextAds();
+        }, 1000);
+    };
+    let title_dom=`Belanja di Shopee Gratis Ongkir Seluruh Indonesia`;
+    let html_dom=`<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih1stovjQY7Wtr31iHiYfn4eV_jjvxTI9lWHcqxl9Q9M-DyfLgNrSQioNe8roUeZl15BTvGqSO7VEQWFgiOfdOC7KPFyAJHg1E71HFIlUv7C3zM09dRz4SQPfyP23GvgX5hPXgskPEBf017gw7EzL0OEl-GdO-tvbR1h5mi-Q0ND2vTfP1Mcng0jCe/w400-h400/unnamed%20(1).jpg" style="width: 100%;"/>`;
+    if(locCountry&&locCountry!="ID") {
+        title_dom="";
+        html_dom=`<div id="container-ads-300-250"></div>`;
+};
+Swal.fire({
+        title: "",
         html: htmlOpen,
         showCloseButton: true,
         showCancelButton: false,
