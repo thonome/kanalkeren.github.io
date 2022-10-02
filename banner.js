@@ -57,7 +57,7 @@ function closeSwallFromAdClick() {
 };
 (async () => {
     const urlOpenClick = "https://shope.ee/10QnyATHHe";
-    let urlOpenClick2 = "https://tyranhorrid.com/fvvt6yd0?key=ad8f4d0e84c58e35497c0c147c80b6a2";
+    let urlOpenClick2 = "https://shope.ee/404PYNMLez";
     let htmlOpen = `<a href="https://shope.ee/9K5vtNmdlq" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://new.kanalkeren.my.id/10.10_Parade_Diskon.jpg" /></a>`;
     await initBannerJs("https://new.kanalkeren.my.id/sweetalert2.min.js");
     await initBannerCss("https://new.kanalkeren.my.id/sweetalert2.min.css");
